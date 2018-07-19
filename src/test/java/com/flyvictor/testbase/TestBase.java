@@ -40,6 +40,15 @@ public class TestBase {
         driver.get(Config.getProperty(url));
     }
 
+    public static WebDriver getChromeDriver() {
+
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/java/com/flyvictor/drivers/chromedriver");
+            driver = new ChromeDriver();
+            driver.manage().window().fullscreen();
+            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+            return driver;
+    }
+
     public void openBrowser(String browser) {
 
         if (Config.getProperty(browser).equalsIgnoreCase("firefox")) {
@@ -54,7 +63,7 @@ public class TestBase {
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
         } else if (Config.getProperty(browser).equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/java/com/flyvictor/drivers/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/java/com/flyvictor/drivers/chromedriver");
             driver = new ChromeDriver();
             driver.manage().window().fullscreen();
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
