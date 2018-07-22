@@ -23,8 +23,16 @@ public class TestBase {
     public static FileInputStream cf;
     public static boolean Initialize;
 
+    public static WebDriver getChromeDriver() {
 
-    public void Initialized() throws IOException {
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/java/com/flyvictor/drivers/chromedriver");
+        driver = new ChromeDriver();
+        driver.manage().window().fullscreen();
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        return driver;
+    }
+
+    public TestBase() throws IOException {
         if(!Initialize)
         {
             Config = new Properties();
@@ -32,6 +40,10 @@ public class TestBase {
             Config.load(cf);
 
         }
+    }
+
+    public void Initialized() throws IOException {
+
 
     }
 
@@ -54,7 +66,7 @@ public class TestBase {
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
         } else if (Config.getProperty(browser).equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/java/com/flyvictor/drivers/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/java/com/flyvictor/drivers/chromedriver");
             driver = new ChromeDriver();
             driver.manage().window().fullscreen();
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
