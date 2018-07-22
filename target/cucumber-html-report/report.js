@@ -95,14 +95,14 @@ formatter.match({
   "location": "LoginStepDefinistions.a_browser_is_at_victor_homepage()"
 });
 formatter.result({
-  "duration": 11862530566,
+  "duration": 14711759189,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinistions.a_user_click_on_login_link()"
 });
 formatter.result({
-  "duration": 253596786,
+  "duration": 448876187,
   "status": "passed"
 });
 formatter.match({
@@ -119,14 +119,14 @@ formatter.match({
   "location": "LoginStepDefinistions.a_user_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 1010946236,
+  "duration": 1726610368,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinistions.a_user_navigates_to_his_personal_homepage()"
 });
 formatter.result({
-  "duration": 246597370,
+  "duration": 151389472,
   "status": "passed"
 });
 });

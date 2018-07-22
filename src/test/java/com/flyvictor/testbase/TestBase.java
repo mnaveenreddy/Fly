@@ -24,6 +24,8 @@ public class TestBase {
     public static boolean Initialize;
 
 
+
+
     public void Initialized() throws IOException {
         if(!Initialize)
         {
@@ -33,6 +35,15 @@ public class TestBase {
 
         }
 
+    }
+
+    public  WebDriver getChromeDriver() {
+
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/java/com/flyvictor/drivers/chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+        return driver;
     }
 
     public void navigate(String url)
@@ -56,7 +67,7 @@ public class TestBase {
         } else if (Config.getProperty(browser).equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/java/com/flyvictor/drivers/chromedriver.exe");
             driver = new ChromeDriver();
-            driver.manage().window().fullscreen();
+            driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         }
     }

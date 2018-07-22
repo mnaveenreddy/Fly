@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac37dcd4-7bcc-47c2-abd0-4df5f3bdd661" name="Default" comment="" />
+    <list default="true" id="ac37dcd4-7bcc-47c2-abd0-4df5f3bdd661" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/flyvictor/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/flyvictor/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/flyvictor/stepdefinitions/LoginStepDefinistions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/flyvictor/stepdefinitions/LoginStepDefinistions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/flyvictor/testbase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/flyvictor/testbase/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/jquery-1.8.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/flyvictor/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/flyvictor/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/flyvictor/stepdefinitions/LoginStepDefinistions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/flyvictor/stepdefinitions/LoginStepDefinistions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/flyvictor/testbase/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/flyvictor/testbase/TestBase.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,22 +31,69 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+            <state relative-caret-position="1241">
+              <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/flyvictor/testbase/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-989">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/flyvictor/pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginStepDefinistions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/flyvictor/stepdefinitions/LoginStepDefinistions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/flyvictor/testbase/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/flyvictor/pageobjectmanager/PageObjectManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/flyvictor/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/flyvictor/stepdefinitions/LoginStepDefinistions.java" />
       </list>
     </option>
   </component>
@@ -42,30 +105,102 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
-    <option name="y" value="23" />
+    <option name="x" value="92" />
+    <option name="y" value="22" />
     <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="height" value="1008" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Flyvictor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flyvictor" type="462c0819:PsiDirectoryNode" />
+              <item name="Fly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fly" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="flyvictor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="flyvictor" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="flyvictor" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="flyvictor" type="462c0819:PsiDirectoryNode" />
+              <item name="stepdefinitions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="flyvictor" type="462c0819:PsiDirectoryNode" />
+              <item name="testbase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="flyvictor" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -112,26 +247,25 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="C:/Users/naveen/Desktop/Flyvictor/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Flyvictor" />
+    <configuration name="C:/Users/naveen/Desktop/Fly/testng.xml" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
     </configuration>
@@ -157,11 +291,6 @@
       <properties />
       <listeners />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.C:/Users/naveen/Desktop/Flyvictor/testng.xml" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -176,40 +305,120 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="C__Users_naveen_Desktop_Fly_testng_xml - 2018.07.21 at 17h 08m 22s.xml">
+      <configuration name="C:/Users/naveen/Desktop/Fly/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_naveen_Desktop_Fly_testng_xml - 2018.07.21 at 17h 08m 57s.xml">
+      <configuration name="C:/Users/naveen/Desktop/Fly/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_naveen_Desktop_Fly_testng_xml - 2018.07.21 at 22h 04m 23s.xml">
+      <configuration name="C:/Users/naveen/Desktop/Fly/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_naveen_Desktop_Fly_testng_xml - 2018.07.21 at 22h 10m 08s.xml">
+      <configuration name="C:/Users/naveen/Desktop/Fly/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_naveen_Desktop_Fly_testng_xml - 2018.07.21 at 22h 11m 54s.xml">
+      <configuration name="C:/Users/naveen/Desktop/Fly/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_naveen_Desktop_Fly_testng_xml - 2018.07.21 at 22h 12m 35s.xml">
+      <configuration name="C:/Users/naveen/Desktop/Fly/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_naveen_Desktop_Fly_testng_xml - 2018.07.21 at 22h 14m 21s.xml">
+      <configuration name="C:/Users/naveen/Desktop/Fly/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_naveen_Desktop_Fly_testng_xml - 2018.07.21 at 22h 19m 31s.xml">
+      <configuration name="C:/Users/naveen/Desktop/Fly/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_naveen_Desktop_Fly_testng_xml - 2018.07.21 at 22h 28m 11s.xml">
+      <configuration name="C:/Users/naveen/Desktop/Fly/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_naveen_Desktop_Fly_testng_xml - 2018.07.22 at 10h 51m 38s.xml">
+      <configuration name="C:/Users/naveen/Desktop/Fly/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="277" y="8" width="1400" height="776" extended-state="0" />
+    <frame x="74" y="18" width="1400" height="806" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27705628" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3283582" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.10149254" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28284183" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29104477" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37891737" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/flyvictor/testbase/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/flyvictor/pageobjectmanager/PageObjectManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="83" selection-start-line="13" selection-start-column="83" selection-end-line="13" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/flyvictor/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -218,8 +427,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+        <state relative-caret-position="1241">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/flyvictor/pageobjectmanager/PageObjectManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/flyvictor/testbase/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-989">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/flyvictor/stepdefinitions/LoginStepDefinistions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/flyvictor/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
