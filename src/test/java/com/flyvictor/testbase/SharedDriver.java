@@ -5,10 +5,14 @@ package com.flyvictor.testbase;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.apache.regexp.RE;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
+
 import java.util.concurrent.TimeUnit;
 
 
@@ -57,6 +61,10 @@ public class SharedDriver extends EventFiringWebDriver {
         REAL_DRIVER.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
+    @AfterClass
+    public void quit(){
+        REAL_DRIVER.quit();
+    }
     @Override
     public void close() {
         if (Thread.currentThread() != CLOSE_THREAD) {
